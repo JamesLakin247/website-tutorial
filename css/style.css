@@ -178,3 +178,29 @@ footer {
 .footer__link {
     padding: 0 16px;
 }
+/* 
+
+MEDIA
+
+*/
+@media (max-width: 728px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .home__description {
+        margin-bottom: 24px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 60px;
+    }
+
+    .sub-header {
+        text-align: center;
+        font-size: 28px;
+    }
+}
